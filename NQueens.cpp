@@ -11,7 +11,7 @@ bool board[MAX][MAX] = {0};
 int cnt = 0;
 
 void printBoard(int  n){
-    cout << "Cach " << ++cnt << ": \n";
+    cout << "Case " << ++cnt << ": \n";
     for (int i = 0; i < n; i++){
         for (int j = 0; j < n; j++){
             cout << board[i][j] << " ";
